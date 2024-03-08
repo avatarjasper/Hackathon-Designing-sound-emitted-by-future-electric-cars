@@ -30,7 +30,7 @@ sig, fs = load(path, wav_calib=2 * 2 **0.5)
 
 t = np.linspace(0, (len(sig) - 1) / fs, len(sig))
 plt.figure(1)
-plt.plot(t, sig, color=COLORS[0])
+plt.plot(t, sig * 0.05, color=COLORS[0])
 plt.xlabel('Time [s]')
 plt.ylabel('Acoustic pressure [Pa]')
 plt.show()
