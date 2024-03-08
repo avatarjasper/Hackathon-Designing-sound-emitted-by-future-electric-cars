@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap">
+</head>
+<body>
+  <div class="highlighted-section"></div>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#" onclick="scrollToSection('about')">About</a></li>
+                    <li><a href="#" onclick="scrollToSection('job-container')">Experience</a></li>
+                    <li><a href="#" onclick="scrollToSection('education')">Education</a></li>
+                    <li><a href="#" onclick="scrollToSection('contact')">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                  </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Welcome!</p>
+                <h1> Hi, I'm <span>Jasper Geijsberts</span></h1>
+                <p> Aerospace Engineer</p>
+            </div>
+    </div>
+
+<!--------- about -------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/work-1.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Back  </strong> 
+                        <br><br>
+                        My 
+                        <br><br>
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!--------- portfolio -------->
+
+<div id="job-container">
+    <h1 class="title-experience">Coop Experience</h1>
+    <div class="job-date">Feb 2023 - Aug 2023</div>
+    <div class="job-header1">Software Developer | Canon Medical Informatics</div>
+    <ul class="job-experience">
+      <li>Implemented </li>
+      <li>Revised </li>
+      <!-- Add more points as needed -->
+    
+    </ul>
+    <div id = "bubble-container">
+      <div class="bubble"> Java </div>
+      <div class="bubble"> Docker </div>
+      <div class="bubble"> Scripting (Python 3.7) </div>
+      <div class="bubble"> SQL </div>
+      <div class="bubble"> Jira </div>
+      <div class="bubble"> Git </div>
+    </div>
+
+    <div class="blank"></div>
+    <div class="job-date">May 2022 - Aug 2022</div>
+    <div class="job-header1">Software Developer In Test (SDET) | Canon Medical Informatics </div>
+    <ul class="job-experience">
+      <li>Performed </li>
+      <li>Utilized  </li>
+
+
+      <!-- Add more points as needed -->
+    
+    </ul>
+    <div id = "bubble-container">
+      <div class="bubble"> Selenium </div>
+      <div class="bubble"> Python </div>
+      <div class="bubble"> Pytest </div>
+      <div class="bubble"> Jenkins </div>
+      <div class="bubble"> JUnit </div>
+      <div class="bubble"> Jira </div>
+      <div class="bubble"> Git </div>
+    </div>
+
+    <div class="blank"></div>
+    <div class="job-date">Sept 2021 - Dec 2021</div>
+    <div class="job-header1">QA Engineer | Polar</div>
+    <ul class="job-experience">
+      <li>Automated </li>
+      <li>Became </li>
+
+      <!-- Add more points as needed -->
+    
+    </ul>
+    <div id = "bubble-container">
+      <div class="bubble"> Selenium </div>
+      <div class="bubble"> Python </div>
+      <div class="bubble"> Jira </div>
+      <div class="bubble"> Git </div>
+    </div>
+
+    <div class="blank"></div>
+    <div class="job-date">Jan 2021 - Apr 2021</div>
+    <div class="job-header1">Data Scientist | Health Canada</div>
+    <ul class="job-experience">
+      <li>Used Python </li>
+      <li>Wrote complex </li>
+      <!-- Add more points as needed -->
+    
+    </ul>
+    <div id = "bubble-container">
+      <div class="bubble"> SQL </div>
+      <div class="bubble"> MS Office </div>
+      <div class="bubble"> Linux </div>
+    </div>
+
+    <div class="blank"></div>
+    <div class="job-date">May 2020 - Aug 2020</div>
+    <div class="job-header1">RPA (Robotic Process Automation) Developer </div>
+    <ul class="job-experience">
+      <li>Created a proof of concept using Java to automate business rules by leveraging RESTful APIs to simplify business decisions</li>
+      <li>Self-taught and took IBM certified courses in various business automation courses, including UiPath</li>
+      <!-- Add more points as needed -->
+    
+    </ul>
+    <div id = "bubble-container">
+      <div class="bubble"> UIPath </div>
+    </div>
+
+  </div>
+
+<!--------- education -------->
+
+<div id="education">
+  <div class="container">
+    <h1 class="sub-title">Education</h1>
+    <div class="education-section">
+      <div>
+        <i class="fas fa-graduation-cap"></i>
+        <h2>University Degree</h2>
+        <p>
+          Bachelors of Science - Delft University of Technology 
+          <br><br>
+          <strong>Program</strong> - Biomedical Engineering 
+          <br><br>
+          <strong>Option/Minor</strong> - Software Engineering Option
+          <br><br>
+          <strong>Study Abroad</strong> - Tokyo Institute of Technology
+        </p>
+        
+      </div>
+      <div>
+        <i class="fas fa-book"></i>
+        <h2>Relevant Courses</h2>
+        <p>
+          <strong>SYDE 572</strong> - Pattern Recognition <br>
+          - Topics covered include classification, feature extraction and selection, 
+          deep learning, various machine learning algorithms such as KNN
+          <br><br>
+          Planning to take before graduation: <br>
+          - <strong>ECE 406</strong> - Algorithm Design and Analysis <br>
+          - <strong>ECE 452</strong> - Software Design and Architectures
+
+        </p>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--------- contact -------->
+<div id="contact">
+  <div class="container">
+    <h1 class="sub-title-contact">Contact Me</h1>
+    <div class="flex-container">
+      <div class="contact-left">
+        <div class="con">
+          <i class="fas fa-paper-plane"></i>
+          <span class="text"> <a href="mailto:v42li@uwaterloo.ca" style="color: white;">v42li@uwaterloo.ca</a></span>
+        </div>
+        <div class="con2">
+          <i class="fas fa-phone"></i>
+          <span class="text"> 647-517-2938</span>
+        </div>
+        
+      </div>
+      
+      
+    </div>
+  </div>
+</div>
+
+<div class="icon-container" style="display: none;">
+  <i class="fas fa-arrow-circle-up" onclick=scrollToTop()></i>
+  <span class="text">Go to Top</span>
+</div>
+
+<!-- SCRIPTS -->
+
+<script>
+  const highlightedSection = document.querySelector('.highlighted-section');
+
+// Listen for mouse movement
+document.addEventListener('mousemove', function(event) {
+  // Calculate the gradient size based on the cursor position
+  const gradientSize = Math.min(window.innerWidth, window.innerHeight) / 2;
+
+  // Calculate the position of the radial gradient based on the cursor's coordinates
+  const gradientX = event.clientX - gradientSize / 2;
+  const gradientY = event.clientY - gradientSize / 2;
+
+  // Apply the radial gradient style to create the ombre effect
+  highlightedSection.style.background = `radial-gradient(circle at ${event.clientX}px ${event.clientY}px, #4c67915a 20%, #0c246e 70%)`;
+});
+</script>
+
+<script>
+  var sidemenu = document.getElementById("sidemenu")
+
+  function openmenu() {
+    sidemenu.style.right = "0"
+  }
+  function closemenu() {
+    sidemenu.style.right = "-200px"
+  }
+</script>
+
+<script>
+    function scrollToSection(sectionId) {
+      var targetSection = document.getElementById(sectionId);
+  
+      // Using the smooth scroll behavior for a smooth scrolling effect
+      
+      targetSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+
+<script>
+// Function to scroll to the top
+function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+}
+</script>
+
+
+<script>
+function showOnScroll() {
+  var hiddenDivs = document.querySelectorAll('.icon-container');
+  for (var i = 0; i < hiddenDivs.length; i++) {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      hiddenDivs[i].style.display = 'block'; // Show the element
+    } else {
+      hiddenDivs[i].style.display = 'none'; // Hide the element
+    }
+  }
+}
+
+// Add event listener for scroll events
+window.addEventListener('scroll', showOnScroll);
+</script>
+
+</body>
+</html>

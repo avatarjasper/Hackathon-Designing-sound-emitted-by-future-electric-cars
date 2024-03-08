@@ -1,2 +1,0 @@
-- change icon image versions (fontawesome) to most recent
-- fix bug where in small screen, clicking the menu options twice takes you to the top of the page
